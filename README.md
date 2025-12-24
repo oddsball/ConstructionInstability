@@ -1,6 +1,8 @@
 in development.
 
 missing:
+pdirt/apdirt = urs1, mds1, cc50, idm1, fs1, fsc0.2, d2
+cob = urs1, msd1, cc30, idm1, d3
 bsoil = urs1,msd1, cc25, idm1, fs1
 pearth = urs1, msd1, cc20, idm2, d3
 spath, spathslab, spathstairs = urs0, msd0, cc20, idm3
@@ -24,7 +26,7 @@ wdwall = urs1, msd1, cc20, idm1
 
 pswall = (does polished rock/ pickaxe relieve block exist in modded server?)
 
-cwall, cslab, cstairs = urs4, msd2, cc20, idm4
+cslab, cstairs = urs4, msd2, cc20, idm4
 croof = urs1, msd3, cc20, idm4
 sroof = urs2, msd3, cc20, idm4
 
