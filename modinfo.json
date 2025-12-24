@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "DECM",
+  "name": "Construction Mod",
+  "authors": [ "DreamEater" ],
+  "description": "Adds stability to constructed blocks",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "version": "0.1",
+  "dependencies": { "survival": "*" }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [],
+    "file": "game:blocktypes/soil/strawbedding.json",
+    "side": "Server"
+  },
+ {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "game:blocktypes/soil/strawbedding.json",
+    "side": "Server",
+    "value": {
+      "name": "UnstableFalling",
+      "properties": {
+        "fallSound": "effect/rockslide",
+        "fallSideways": true,
+        "fallSidewaysChance": 0.5,
+        "dustIntensity": 0.25
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/allowUnstablePlacement",
+    "value": true,
+    "file": "game:blocktypes/soil/strawbedding.json",
+    "side": "Server"
+  }
+]
