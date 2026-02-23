@@ -1,0 +1,57 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [],
+    "file": "game:blocktypes/plant/hay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "game:blocktypes/plant/hay.json",
+    "side": "Server",
+    "value": {
+      "name": "UnstableRock",
+      "properties": {
+        "fallSound": "effect/rockslide",
+        "dustIntensity": 0.25,
+        "collapseChance": 0.5,
+        "maxSupportDistance": 1,
+        "collapsedBlock": "stone-cobblestone-fallen",
+        "impactDamageMul": 1
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "game:blocktypes/plant/hay.json",
+    "side": "Server",
+    "value": {
+      "name": "BreakIfFloating"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/allowUnstablePlacement",
+    "value": true,
+    "file": "game:blocktypes/plant/hay.json",
+    "side": "Server"
+  },
+ {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "game:blocktypes/plant/hay.json",
+    "side": "Server",
+    "value": {
+      "name": "UnstableFalling",
+      "properties": {
+        "fallSound": "effect/rockslide",
+        "fallSideways": true,
+        "fallSidewaysChance": 0.8,
+        "dustIntensity": 0.25
+      }
+    }
+  }
+]
