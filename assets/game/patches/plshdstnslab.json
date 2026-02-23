@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [],
+    "file": "game:blocktypes/stone/cobble/cobblestone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "game:blocktypes/stone/cobble/cobblestone.json",
+    "side": "Server",
+    "value": {
+      "name": "UnstableRock",
+      "properties": {
+        "fallSound": "effect/rockslide",
+        "dustIntensity": 0.25,
+        "collapseChance": 1,
+        "maxSupportDistance": 2,
+        "collapsedBlock": "stone-cobblestone-fallen",
+        "impactDamageMul": 3
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "game:blocktypes/stone/cobble/cobblestone.json",
+    "side": "Server",
+    "value": {
+      "name": "BreakIfFloating"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/allowUnstablePlacement",
+    "value": true,
+    "file": "game:blocktypes/stone/cobble/cobblestone.json",
+    "side": "Server"
+  }
+]
