@@ -1,0 +1,240 @@
+[
+  {
+    "op":"add",
+    "file":"game:block/soil-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":1,"collapseChance":0.95}
+  },
+  {
+    "op":"add",
+    "file":"game:block/soil-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableFalling","fallSideways":true,"fallSidewaysChance":0.50}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/packeddirt",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":1,"collapseChance":0.95}
+  },
+  {
+    "op":"add",
+    "file":"game:block/packeddirt",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableFalling","fallSideways":true,"fallSidewaysChance":0.50}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/rammedearth-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":1,"collapseChance":0.90}
+  },
+  {
+    "op":"add",
+    "file":"game:block/rammedearth-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableFalling","fallSideways":true,"fallSidewaysChance":0.40}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/cover-straw-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":1,"collapseChance":0.90}
+  },
+  {
+    "op":"add",
+    "file":"game:block/cover-straw-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableFalling","fallSideways":true,"fallSidewaysChance":0.50}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/cover-hay-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":1,"collapseChance":0.90}
+  },
+  {
+    "op":"add",
+    "file":"game:block/cover-hay-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableFalling","fallSideways":true,"fallSidewaysChance":0.50}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/agedhaycover-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":1,"collapseChance":0.80}
+  },
+  {
+    "op":"add",
+    "file":"game:block/agedhaycover-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableFalling","fallSideways":true,"fallSidewaysChance":0.50}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/wattleanddaub-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":2,"collapseChance":0.70}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/plaster-noboards",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":1,"collapseChance":0.80}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/plaster-2boards",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":2,"collapseChance":0.60}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/plaster-4boards",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":3,"collapseChance":0.40}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/cobblestone-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":2,"collapseChance":0.60}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/mossycobblestone-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":2,"collapseChance":0.60}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/lichencobblestone-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":2,"collapseChance":0.58}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/drystone-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":3,"collapseChance":0.50}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/mixeddrystone-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":3,"collapseChance":0.50}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/polishedstone-*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":4,"collapseChance":0.30}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/claybrick-red",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":3,"collapseChance":0.60}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/claybrick-brown",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":3,"collapseChance":0.60}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/claybrick-blue",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":3,"collapseChance":0.60}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/claybrick-fire",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":4,"collapseChance":0.50}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/refractorybrick-tier1",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":4,"collapseChance":0.40}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/refractorybrick-tier2",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":5,"collapseChance":0.30}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/refractorybrick-tier3",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":5,"collapseChance":0.25}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/*metalblock-copper*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":4,"collapseChance":0.45}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/*metalblock-silver*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":4,"collapseChance":0.40}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/*metalblock-gold*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":4,"collapseChance":0.35}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/*metalblock-bronze*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":4,"collapseChance":0.40}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/*metalblock-iron*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":5,"collapseChance":0.30}
+  },
+
+  {
+    "op":"add",
+    "file":"game:block/*metalblock-steel*",
+    "path":"/behaviors/-",
+    "value":{"name":"UnstableRock","maxSupportDistance":6,"collapseChance":0.20}
+  }
+]
